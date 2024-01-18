@@ -5,18 +5,21 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Sarah Kalafos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Sarah Kalafos
-        </h1>
-
-        <p className={styles.description}>
-          Performer / Director / Model
-        </p>
+        <div className={styles.grid}>
+          <div className={styles.left}>
+            <h1 className={styles.title}>
+              Sarah Kalafos
+            </h1>
+            <p className={styles.description}>
+              Performer / Director / Model
+            </p>
+          </div>
+        </div>
       </main>
 
       <footer>
@@ -28,7 +31,7 @@ export default function Home() {
           <img src="/insta.webp" alt="Instagram: @skalafos" className={styles.logo} />
         </a>
       </footer>
-
+  
       <style jsx>{`
         main {
           padding: 5rem 0;
