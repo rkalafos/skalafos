@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import AboutMe from './aboutMe.js';
 import Gallery from './gallery.js';
+import Reels from './reels.js';
 import Contact from './contact.js';
 import { ChakraProvider } from '@chakra-ui/react';
 import { VStack, HStack, Image, Center, Text, Button, Heading, StackDivider } from '@chakra-ui/react';
@@ -32,6 +33,8 @@ export default function Home() {
             </HStack>
             <Heading>About Me</Heading>
             <AboutMe/>
+            <Heading>Reels</Heading>
+            <Reels/>
             <Heading>Gallery</Heading>
             <Gallery/>
             <Heading>Contact Info</Heading>
