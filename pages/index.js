@@ -21,9 +21,11 @@ export default function Home() {
                   <Heading fontSize='5xl'>Sarah Kalafos</Heading>
                   <Text fontSize='2xl'>Singer / Actor / Dancer</Text>
                   <Text fontSize='xl'>Director / Choreographer / Model</Text>
-                  <Button colorScheme='teal'>
-                    <a href='Sarah_Kalafos_Resume.pdf' download>Download Resume</a>
+                  <a href='Sarah_Kalafos_Resume.pdf' download>
+                    <Button colorScheme='teal'>
+                      Download Resume
                     </Button>
+                  </a>
                 </VStack>
               </Center>
               <Image width={'50%'} src='sq_head.jpg'/>
