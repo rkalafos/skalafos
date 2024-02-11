@@ -4,12 +4,19 @@ import Gallery from './gallery.js';
 import Reels from './reels.js';
 import Contact from './contact.js';
 import { ChakraProvider } from '@chakra-ui/react';
+import { extendTheme } from '@chakra-ui/react'
 import { VStack, HStack, Image, Center, Text, Button, Heading, StackDivider } from '@chakra-ui/react';
 
 export default function Home() {
 
+  const config = {
+    initialColorMode: 'dark',
+    useSystemColorMode: false,
+  }
+  const theme = extendTheme({ config })
+
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
         <Head>
           <title>Sarah Kalafos</title>
           <link rel="icon" href="butterfly.jpeg" />
