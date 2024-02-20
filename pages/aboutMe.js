@@ -1,37 +1,37 @@
-import { Flex, Text, Card } from '@chakra-ui/react'
+import { Stack, Button, Card, Box } from '@chakra-ui/react'
 
 
 export default function AboutMe() {
-    return(
-        <Flex>
-            <Card m={3} p={3}>
-              <Text>
-                Sarah is a Maryland native based in Boston, Massachusetts. She believes growing up in a small town has given her a gritty, 
-                creative edge, as she has seen what creating art in unlikely places can do for communities. Sarah currently attends The 
-                Boston Conservatory at Berklee College of Music, where she is pursuing a B.F.A. in musical theater with an emphasis 
-                in directing. While she has extensive training in acting, dance, and vocal technique, she is most interested in how art can 
-                inform greater parts of society.
-              </Text>
-            </Card>
-            <Card m={3} p={3}>
-              <Text>
-                Her passion for this principle is what drives her efforts in humanitarian non-profit work, as well as her belief that 
-                responsible directing goes hand in hand with historical dramaturgy. At the age of 16, Sarah founded Marley Music Mentors, 
-                an after school program designed to introduce Anne Arundel county public school children to the arts. She has since then 
-                taught music, drama, and dance at Cambridge Friends School and Boston Children's Chorus. The curriculum she developed was 
-                built to encourage empathy, expression, and autonomy in her students.
-              </Text>
-            </Card>
-            <Card m={3} p={3}>
-              <Text>
-                In addition to performance and education, Sarah has modeled for Strike Magazine, Palmarosa Jewelry, and several 
-                photographers looking to build their portfolios. While she mainly specializes in lifestyle and commercial work, 
-                she has dipped her toes in more editorial photography. A highlight for her is appearing in Sarah Katherine Lawless's 
-                first music video, Five Feet Under, which allowed her to marry her dance and modeling experience. Sarah has also 
-                choreographed for people with ranges of experience from elementary schoolers, to professional actors. Her favorite styles 
-                are commercial jazz and contemporary. 
-              </Text>
-            </Card>
-        </Flex>
-    )
+  return (
+    <Stack align="column">
+      <Box >
+        <Card p={6} m={6}>
+          Hello! My name is Sarah Kalafos, and I am a creative artist based in NYC, Boston, and DC.
+          This website highlights me as a performer. For more details on my teaching, directing, and
+          restaurant/retail experience, check me out on Linkedin. For less packaged performance material,
+          check me out on youtube!
+        </Card>
+      </Box>
+      <Stack align="column">
+        <Button as={'a'} backgroundColor='white' href='Sarah_Kalafos_Resume.pdf' size={'lg'} mx={8} my={1} download>
+          Download Resume
+        </Button>
+        <Button as={'a'} backgroundColor='teal.100' href='Sarah_Kalafos_Headshot.jpg' size={'lg'} mx={8} my={1} download>
+          Download Headshot
+        </Button>
+        <Button as={'a'} backgroundColor='teal.300' href='mailto:skalafos@yahoo.com' target='_blank' size={'lg'} mx={8} my={1} >
+          Email
+        </Button>
+        <Button as={'a'} backgroundColor='teal.500' color="white" href='https://www.instagram.com/skalafos/' target='_blank' size={'lg'} mx={8} my={1} >
+          Instagram
+        </Button>
+        <Button as={'a'} backgroundColor='teal.700' color="white" href='https://www.facebook.com/sarah.kalafos' target='_blank' size={'lg'} mx={8} my={1} >
+          Facebook
+        </Button>
+        <Button as={'a'} backgroundColor='teal.900' color="white" href='https://www.linkedin.com/in/sarah-kalafos-b8599b26b/' target='_blank' size={'lg'} mx={8} my={1} >
+          LinkedIn
+        </Button>
+      </Stack>
+    </Stack>
+  )
 }
