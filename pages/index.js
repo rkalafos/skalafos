@@ -25,10 +25,9 @@ export default function Home() {
           <Box background={"black"} width={"100%"} alignItems={{ base: "left", md: "center" }}>
             <Heading color="white" p={3} alignItems={{ base: "left", md: "center" }}>Sarah Kalafos</Heading>
           </Box>
-          {/* Header information + Headshot!! */}
           <Stack direction={{ base: "column", lg: "row" }} spacing={0}>
-            <Image width={{ base: '100%', lg: '50%' }} src='headshot2.jpg' />
-            <Center width={{ base: '100%', lg: '50%' }} background={"black"}>
+            <Image width={{ base: '100%', lg: '60%' }} src='headshot2.jpg' />
+            <Center width={{ base: '100%', lg: '40%' }} background={"black"}>
               <AboutMe />
             </Center>
           </Stack>

@@ -12,23 +12,23 @@ export default function AboutMe() {
           check me out on youtube!
         </Card>
       </Box>
-      <Stack align="column">
-        <Button as={'a'} backgroundColor='white' href='Sarah_Kalafos_Resume.pdf' size={'lg'} mx={8} my={1} download>
+      <Stack align="column" mx={4}>
+        <Button as={'a'} backgroundColor='white' color="black" href='Sarah_Kalafos_Resume.pdf' size={'lg'} mx={12} my={1} download>
           Download Resume
         </Button>
-        <Button as={'a'} backgroundColor='teal.100' href='Sarah_Kalafos_Headshot.jpg' size={'lg'} mx={8} my={1} download>
+        <Button as={'a'} backgroundColor='teal.100' color="black" href='Sarah_Kalafos_Headshot.jpg' size={'lg'} mx={12} my={1} download>
           Download Headshot
         </Button>
-        <Button as={'a'} backgroundColor='teal.300' href='mailto:skalafos@yahoo.com' target='_blank' size={'lg'} mx={8} my={1} >
+        <Button as={'a'} backgroundColor='teal.300' color="black" href='mailto:skalafos@yahoo.com' target='_blank' size={'lg'} mx={12} my={1} >
           Email
         </Button>
-        <Button as={'a'} backgroundColor='teal.500' color="white" href='https://www.instagram.com/skalafos/' target='_blank' size={'lg'} mx={8} my={1} >
+        <Button as={'a'} backgroundColor='teal.500' color="white" href='https://www.instagram.com/skalafos/' target='_blank' size={'lg'} mx={12} my={1} >
           Instagram
         </Button>
-        <Button as={'a'} backgroundColor='teal.700' color="white" href='https://www.facebook.com/sarah.kalafos' target='_blank' size={'lg'} mx={8} my={1} >
+        <Button as={'a'} backgroundColor='teal.700' color="white" href='https://www.facebook.com/sarah.kalafos' target='_blank' size={'lg'} mx={12} my={1} >
           Facebook
         </Button>
-        <Button as={'a'} backgroundColor='teal.900' color="white" href='https://www.linkedin.com/in/sarah-kalafos-b8599b26b/' target='_blank' size={'lg'} mx={8} my={1} >
+        <Button as={'a'} backgroundColor='teal.900' color="white" href='https://www.linkedin.com/in/sarah-kalafos-b8599b26b/' target='_blank' size={'lg'} mx={12} my={1} >
           LinkedIn
         </Button>
       </Stack>
