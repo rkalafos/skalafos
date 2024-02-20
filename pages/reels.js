@@ -3,7 +3,7 @@ import { Stack, Card, Heading } from '@chakra-ui/react';
 
 export default function Reels() {
     return (
-        <Stack direction={{ base: "column", lg: "row" }} spacing={0}>
+        <Stack direction={{ base: "column", lg: "row" }} spacing={0} width={"100&"}>
             <Card m={6} p={6} backgroundColor={"gray.200"}>
                 <Heading align="center">Vocal Reel</Heading>
                 <iframe
