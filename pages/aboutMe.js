@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <Stack align="column">
       <Box >
-        <Card p={6} m={6}>
+        <Card p={6} m={6} backgroundColor={"gray.200"} color="black">
           Hello! My name is Sarah Kalafos, and I am a creative artist based in NYC, Boston, and DC.
           This website highlights me as a performer. For more details on my teaching, directing, and
           restaurant/retail experience, check me out on Linkedin. For less packaged performance material,
