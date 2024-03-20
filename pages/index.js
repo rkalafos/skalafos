@@ -8,14 +8,8 @@ import { VStack, Image, Center, Heading, Stack, Box } from '@chakra-ui/react';
 
 export default function Home() {
 
-  const config = {
-    initialColorMode: 'dark',
-    useSystemColorMode: false,
-  }
-  const theme = extendTheme({ config })
-
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider>
       <Head>
         <title>Sarah Kalafos</title>
         <link rel="icon" href="butterfly.jpeg" />
