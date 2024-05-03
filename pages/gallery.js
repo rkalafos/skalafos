@@ -1,21 +1,26 @@
 import { Center, Heading, GridItem, Image, Wrap, VStack } from '@chakra-ui/react';
 
-
 export default function Gallery() {
   const images = [
-    '/gallery/IMG_0226.jpeg',
-    '/gallery/IMG_0309.JPEG',
-    '/gallery/h_mom.jpg',
-    '/gallery/v_head.jpg',
-    '/gallery/IMG_0251.JPEG',	
-    '/gallery/IMG_0310.JPEG',	
-    '/gallery/h_pier.jpg',	
-    '/gallery/v_pink.jpg',
-    '/gallery/IMG_0284.JPEG',	
-    '/gallery/bu_shot.png',	
-    '/gallery/sq_head.jpg',	
+    '/gallery/headshot1.jpeg',
+    '/gallery/headshot2.jpeg',
+    '/gallery/choreo_showcase.jpeg',
     '/gallery/v_tub.jpg',
+    '/gallery/IMG_0284.JPEG',	
+    '/gallery/IMG_0251.JPEG',	
+    '/gallery/IMG_7243.jpeg',
+    '/gallery/IMG_7966.JPEG',
+    '/gallery/IMG_0226.jpeg',
+    '/gallery/bu_shot.png',	
+    '/gallery/IMG_0267.JPG',
+    '/gallery/v_pink.jpg',    
+    '/gallery/headshot3.jpeg',
+    '/gallery/sq_head.jpg',	
+    '/gallery/h_mom.jpg',
+    '/gallery/IMG_0309.JPEG',
+    '/gallery/IMG_0310.JPEG',
   ]
+
   return (
     <VStack>
       <Heading color="white">Gallery</Heading>

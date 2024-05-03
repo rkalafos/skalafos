@@ -3,7 +3,6 @@ import AboutMe from './aboutMe.js';
 import Gallery from './gallery.js';
 import Reels from './reels.js';
 import { ChakraProvider } from '@chakra-ui/react';
-import { extendTheme } from '@chakra-ui/react'
 import { VStack, Image, Center, Heading, Stack, Box } from '@chakra-ui/react';
 
 export default function Home() {
