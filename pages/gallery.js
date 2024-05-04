@@ -6,6 +6,7 @@ export default function Gallery() {
     '/gallery/headshot2.jpeg',
     '/gallery/choreo_showcase.jpeg',
     '/gallery/v_tub.jpg',
+    '/gallery/RNR_pic.jpeg',
     '/gallery/IMG_0284.JPEG',	
     '/gallery/IMG_0251.JPEG',	
     '/gallery/IMG_7243.jpeg',
