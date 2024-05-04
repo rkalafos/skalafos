@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <VStack spacing={0} background={"black"} >
           <Box background={"black"} width={"100%"} alignItems={{ base: "left", md: "center" }}>
-            <Heading color="white" p={3} alignItems={{ base: "left", md: "center" }}>Sarah Kalafos</Heading>
+            <Heading color="white" p={3} alignItems={{ base: "left", md: "center" }}>Sarah Kalafos - Actor, Singer, Dancer, Director, Model</Heading>
           </Box>
           <Stack direction={{ base: "column", lg: "row" }} spacing={0}>
             <Image width={{ base: '100%', lg: '60%' }} src='headshot2.jpg' />
