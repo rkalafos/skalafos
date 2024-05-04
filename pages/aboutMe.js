@@ -6,10 +6,12 @@ export default function AboutMe() {
     <Stack align="column">
       <Box >
         <Card p={6} m={6} backgroundColor={"gray.200"} color="black">
-          Hello! My name is Sarah Kalafos, and I am a creative artist based in NYC, Boston, and DC.
-          This website highlights me as a performer. For more details on my teaching, directing, and
-          restaurant/retail experience, check me out on Linkedin. For less packaged performance material,
-          check me out on youtube!
+        Hello, my name is Sarah! I am a proud multi-hyphenate artist and Maryland native. 
+        I credit a lot of my grittiness to growing up in a small town, as I’ve had the privilege 
+        of creating art in unlikely places, and have seen what it can do for communities. 
+        Recent graduate from The Boston Conservatory at Berklee College of Music, where I earned my 
+        B.F.A. in musical theater with an emphasis in directing. While I love to kick face and belt 
+        to the gods every now and then, I am most interested in how art can inform greater parts of society.
         </Card>
       </Box>
       <Stack align="column" mx={4}>
