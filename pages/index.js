@@ -1,9 +1,6 @@
 import Head from 'next/head';
-import AboutMe from './aboutMe.js';
-import Gallery from './gallery.js';
-import Reels from './reels.js';
 import { ChakraProvider } from '@chakra-ui/react';
-import { VStack, Image, Center, Heading, Stack, Box } from '@chakra-ui/react';
+import { Button, VStack, Card, Image } from '@chakra-ui/react';
 
 export default function Home() {
 
@@ -14,18 +11,10 @@ export default function Home() {
         <link rel="icon" href="butterfly.jpeg" />
       </Head>
       <main>
-        <VStack spacing={0} background={"black"} >
-          <Box background={"black"} width={"100%"} alignItems={{ base: "left", md: "center" }}>
-            <Heading color="white" p={3} alignItems={{ base: "left", md: "center" }}>Sarah Kalafos - Actor, Singer, Dancer, Director, Model</Heading>
-          </Box>
-          <Stack direction={{ base: "column", lg: "row" }} spacing={0}>
-            <Image width={{ base: '100%', lg: '60%' }} src='headshot2.jpg' />
-            <Center width={{ base: '100%', lg: '40%' }} background={"black"}>
-              <AboutMe />
-            </Center>
-          </Stack>
-          <Reels />
-          <Gallery />
+        <VStack spacing={100} height={'100%'}>
+          <Button as={'a'} backgroundColor='teal.500' color="white" href='https://skalafos.wixsite.com/sarahkalafos' size={'lg'} mx={12} my={12} >
+            Go to Sarah's Site!
+          </Button>
         </VStack>
       </main>
     </ChakraProvider >
